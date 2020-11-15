@@ -14,7 +14,7 @@
 //     { path: 'home',             component: ComponentsComponent },
 //     { path: 'user-profile',     component: ProfileComponent },
 //     { path: 'signup',           component: SignupComponent },
-//     { path: 'landing',          component: LandingComponent },
+//     { path: 'about-us',          component: LandingComponent },
 //     { path: 'nucleoicons',      component: NucleoiconsComponent }
 // ];
 
@@ -22,9 +22,7 @@
 //   imports: [
 //     CommonModule,
 //     BrowserModule,
-//     RouterModule.forRoot(routes,{
-//       useHash: true
-//     })
+//     RouterModule.forRoot(routes)
 //   ],
 //   exports: [
 //   ],

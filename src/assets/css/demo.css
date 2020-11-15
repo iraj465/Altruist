@@ -1,17 +1,4 @@
-/*!
 
- =========================================================
- * Paper Kit 2 Angular - v1.3.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/paper-kit-2-angular
- * Copyright 2017 Creative Tim (https://www.creative-tim.com)
- * Licensed under MIT (https://github.com/timcreative/paper-kit/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
 .tim-row {
     margin-bottom: 20px;
 }
@@ -98,7 +85,7 @@
 }
 
 .navigation-example {
-    background-image: url('../img/ilya-yakover.jpg');
+    /* background-image: url('../img/ilya-yakover.jpg'); */
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -1225,18 +1212,6 @@ pre.prettyprint {
     }
 }
 
-
-/* for components and tutorial page */
-
-
-/*pre.prettyprint{
-        background-color: #FFFCF5;
-        border: 0px;
-        margin-bottom: 0;
-        margin-top: 20px;
-        padding: 20px;
-        text-align: left;
-    }*/
 
 .atv, .str {
     color: #75c3b6;
