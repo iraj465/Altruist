@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" routerLink="/signup">About us</a>
+            <i class="nc-icon nc-shop" style="font-size: 20px;cursor: pointer" routerLink="/home" rel="tooltip"></i>
+            <a class="navbar-brand" routerLink="/about-us">About us</a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -27,6 +28,9 @@
                         <i class="fa fa-instagram"></i>
                         <p class="d-lg-none">Instagram</p>
                     </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="navbar-brand" routerLink="/news">News</a>
                 </li>
                 <li class="nav-item" *ngIf="!isHome()">
                     <a [routerLink]="['/home']" *ngIf="!isDocumentation()" class="nav-link"><i class="nc-icon nc-layout-11"></i>Components</a>
