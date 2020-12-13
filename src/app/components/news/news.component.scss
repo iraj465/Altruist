@@ -25,7 +25,7 @@ body {
   position: relative;
   margin: auto;
   overflow: hidden;
-  width: 520px;
+  width: 800px;
   height: 350px;
   background: $white;
   box-shadow: 5px 5px 15px rgba($rose, .5);
@@ -116,6 +116,33 @@ button {
     transition: all .4s ease-in-out;
   }
 }
+
+.det {
+  background: darken($light, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $white;
+  cursor: pointer;
+  &:hover {
+    background: $rose;
+    transition: all .4s ease-in-out;
+  }
+}
+
+.b {
+  font-weight: 600;
+}
+
+.b2 {
+  font-weight: 550;
+}
+
 
 .add {
   width: 67%;
