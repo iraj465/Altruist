@@ -1,0 +1,190 @@
+@media (min-width: 768px) {
+  .h-md-100 { height: 100vh; }
+  }
+  .btn-round { border-radius: 30px; }
+  
+  #error-card{
+    background-color:#880F0A;
+  }
+  mat-card-title{
+    color: white;
+    font-size: large;
+  }
+  ul.message{
+    color: white;
+    font-size: small;
+  }
+  
+  
+  /* Next button */
+  
+  
+  button.next-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    width: 12rem;
+    height: auto;
+  }
+  button.next-btn .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+  }
+  button.next-btn .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+  }
+  button.next-btn .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+  }
+  button.next-btn .circle .icon.arrow::before {
+    position: absolute;
+    content: '';
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+  }
+  button.next-btn .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  button:hover .circle {
+    width: 100%;
+  }
+  button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+  }
+  button:hover .button-text {
+    color: #fff;
+  }
+  @supports (display: grid) {
+    body {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.625rem;
+      grid-template-areas: ". main main ." ". main main .";
+    }
+    .next-container {
+      grid-area: main;
+      align-self: center;
+      justify-self: center;
+    }
+  }
+  
+  
+  
+  
+  
+  .submit-btn {
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  /*btn_background*/
+  .effect01:enabled {
+    color: #FFF;
+    border: 4px solid #000;
+    box-shadow:0px 0px 0px 1px #000 inset;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .effect01:enabled:hover {
+    border: 4px solid #666;
+    background-color: #FFF;
+    box-shadow:0px 0px 0px 4px #EEE inset;
+  }
+  
+  /*btn_text*/
+  .effect01:enabled span {
+    transition: all 0.2s ease-out;
+    z-index: 2;
+  }
+  .effect01:enabled:hover span{
+    letter-spacing: 0.13em;
+    color: #333;
+  }
+  
+  /*highlight*/
+  .effect01:enabled:after {
+    background: #FFF;
+    border: 0px solid #000;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .8;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 50px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+    z-index: 1;
+  }
+  .effect01:enabled:hover:after {
+    background: #FFF;
+    border: 20px solid #000;
+    opacity: 0;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+  
+  .split-right{
+    overflow-y: scroll;
+  }
+  
+  .main-container{
+    overflow:hidden;
+  }
+  
+  .error {
+    font-size: 10px;
+    color: red;
+  }
+  

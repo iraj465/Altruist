@@ -11,6 +11,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { NewsComponent } from './components/news/news.component';
 import { FindUsComponent } from './components/find-us/find-us.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { DonateComponent } from './components/donate/donate.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,6 +23,8 @@ const routes: Routes =[
     { path: 'nucleoicons',      component: NucleoiconsComponent },
     { path: 'find-us', component: FindUsComponent },
     { path: 'contact-us', component: ContactComponent },
+    { path: 'donate', component: DonateComponent },
+
 
 ];
 
