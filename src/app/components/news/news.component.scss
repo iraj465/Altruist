@@ -30,15 +30,8 @@ body {
   background: $white;
   box-shadow: 5px 5px 15px rgba($rose, .5);
   border-radius: 10px;
-  background-color: #6a93cb;
-  background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
-
-
-
-
-
-
-
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 }
 
 p {
@@ -217,8 +210,6 @@ footer {
 }
 
 .section {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   }
 .col {
   color: #d9534f;

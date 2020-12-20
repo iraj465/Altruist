@@ -20,6 +20,7 @@ import { DonateComponent } from './donate/donate.component';
 import { MaterialModule } from 'app/material-module';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ToastrModule } from 'ngx-toastr';
+import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
     imports: [
         CommonModule,
@@ -44,7 +45,8 @@ import { ToastrModule } from 'ngx-toastr';
         NgbdModalContent,
         NewsComponent,
         ContactComponent,
-        DonateComponent
+        DonateComponent,
+        GalleryComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]
