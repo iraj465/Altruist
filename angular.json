@@ -31,7 +31,8 @@
               "src/assets/css/demo.css",
               "src/assets/css/nucleo-icons.css",
               "src/styles.scss",
-              "./node_modules/leaflet/dist/leaflet.css"
+              "./node_modules/leaflet/dist/leaflet.css",
+              "./node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },

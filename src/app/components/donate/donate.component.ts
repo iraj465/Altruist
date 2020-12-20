@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-donate',
@@ -10,7 +11,8 @@ export class DonateComponent implements OnInit {
 
   formGroup: FormGroup;
   constructor(
-    private _formBuilder: FormBuilder
+    private _formBuilder: FormBuilder,
+    private _router: Router
   ) { }
 
   ngOnInit(): void {
@@ -21,6 +23,9 @@ export class DonateComponent implements OnInit {
       amount: ['', Validators.required]
     });
   }
-  submit() {}
+  submit() {
+    alert('Thanks for donating!')
+    this._router.navigate(['/contact-us'])
+  }
 
 }

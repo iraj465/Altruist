@@ -19,6 +19,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DonateComponent } from './donate/donate.component';
 import { MaterialModule } from 'app/material-module';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ToastrModule } from 'ngx-toastr';
 @NgModule({
     imports: [
         CommonModule,
@@ -29,7 +30,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
         FormsModule,
         ReactiveFormsModule,
         MatFormFieldModule,
-        JwBootstrapSwitchNg2Module
+        JwBootstrapSwitchNg2Module,
+        ToastrModule,
     ],
     declarations: [
         ComponentsComponent,
